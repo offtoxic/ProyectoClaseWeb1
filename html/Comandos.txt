@@ -1,0 +1,3 @@
+crear etiquetas = a
+subir de nivel en carpetas = ../
+crear lista = ul - li
