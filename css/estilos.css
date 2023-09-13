@@ -33,34 +33,34 @@ figure {
     justify-content: space-between;
 }
 
-.divLateralIzquierdo {
-    width: 69.5%;
-    height: 200px;
-    background-color: teal;
-}
-
 .divIzquierdo {
-    width: 89%;
-    height: 200px;
-    background-color: teal;
-}
-
-.divIzquierdo p {
-    margin-left: 10px;
-    font-size: 20px;
-    color: white;
-}
-
-.divDerecho {
     width: 11%;
     height: 200px;
     background-color: steelblue;
 }
 
-.divDerecho p {
+.divIzquierdo p {
     text-align: center;
     font-size: 20px;
     color: white;
+}
+
+.divDerecho {
+    width: 89%;
+    height: 200px;
+    background-color: teal;
+}
+
+.divDerecho p {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.divLateralIzquierdo {
+    width: 69.5%;
+    height: 200px;
+    background-color: teal;
 }
 
 .divLateralDerecho {
