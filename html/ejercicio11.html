@@ -4,34 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo HTML Formulario</title>
+    <title>Ejemplo CSS</title>
+    <style>
+
+        p {
+            color: white;
+            font-size: 16px;
+            font-family: Verdana;
+            border: inset 2px black;
+        }
+
+    </style>
 </head>
 
-<body>
+<body style="background-color: #2596be">
 
-    <h1>Ejemplo HTML Formulario</h1>
+    <h1 style="background-color: black; color: white">Ejemplo CSS</h1>
 
-    <form action="">
-        <Fieldset>
-            <Legend>Datos Paciente</Legend>
-            Cedula
-            <input type="number" pattern="[0,9]{6,12}" autofocus>
+    <p>Que tienes para este viernes?</p>
 
-            Nombre Paciente
-            <input type="text" pattern="(Sr|Sra) [A-Z]{1}[a-z ]*" size="40" placeholder="Sr|Sra Nombre">
+    <p>Un super Quiz</p>
 
-            Fecha De Nacimiento
-            <input type="date" pattern="[0-9]{4}/[0-9]{2}/[0-9]{2}">
-
-            Numero Celular
-            <input type="text" pattern="\+\d{2} \d{3} \d{3} \d{3}">
-
-            <input type="submit" value="Enviar Servidor">
-        </Fieldset>
-
-        <textarea cols="30" rows="3"></textarea>
-
-    </form>
+    <p>Deseo que llegue el viernes</p>
 
 </body>
 

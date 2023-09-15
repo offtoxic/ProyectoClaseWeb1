@@ -1,68 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo CSS</title>
-    <style>
-        nav {
-            background-color: black;
-            height: 70px;
-        }
-
-        a {
-            color: white;
-        }
-
-        .colorDivUno {
-            background-color: #008000;
-            height: 300px;
-        }
-
-        .colorDivDos {
-            background-color: #0000FF;
-            height: 300px;
-        }
-
-        h1 {
-            margin-bottom: 0;
-            margin-top: 0;
-        }
-
-        .margenPUno{
-            margin-top: 0;
-        }
-    </style>
+    <title>Tutorial Web</title>
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
-
 <body>
 
+    <h1>Tutorial Web</h1>
+
     <nav>
-
-        <img src="" alt="Logo">
-        <a href="">Web Technology</a>
-        <a href="">C Programming</a>
-        <a href="">Jaime Gay</a>
-        <input type="text">
-        <button>Search</button>
-
+        <a href="#">Inicio</a>
+        <a href="#">Front end</a>
+        <a href="#">Back end</a>
+        <a href="#">Full Stack</a>
     </nav>
 
-    <div class="colorDivUno">
+    <figure>
 
-        <h1>Web Technology</h1>
-        <p class="margenPUno">HTML stands for HyperText Markup Language. It is used to design web pages using a markup language, HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. A markup language is used to define the text document within lag which defines the structure of web pages. HTML is a markup language that is used by the browser to manipulate text, images, and other content to display it in the required format.</p>
+        <img class="imgLogo" src="../recursos/imagenes/portatil1.webp" alt="Logo" width="500">
+        <figcaption>Logo de la Empresa</figcaption>
+
+    </figure>
+
+    <div class="flexContainer">
+
+        <div class="divLateralIzquierdo">
+
+            <div class="flexContainer">
+
+                <div class="divIzquierdo">
+
+                    <p>Front End</p>
+                    <img class="imgDiv" src="../recursos/imagenes/imagen1.jfif" alt="">
+
+                </div>
+
+                <div class="divDerecho">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum illum distinctio corporis expedita, impedit nisi quos minus nam doloribus alias vero sint architecto maiores, repudiandae aut adipisci? Illum, facilis optio?</p>
+
+                </div>
+
+            </div>
+
+            <div class="flexContainer">
+
+                <div class="divIzquierdo">
+
+                    <p>Back End</p>
+                    <img class="imgDiv" src="../recursos/imagenes/imagen1.jfif" alt="">
+
+                </div>
+                <div class="divDerecho">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et assumenda harum blanditiis eius similique veniam eveniet exercitationem, distinctio ducimus. Nisi, quod? Ipsam, facere id eligendi beatae magnam inventore ipsum alias?</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="divLateralDerecho">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, non vero alias maiores tempora optio dolore eveniet dicta! Praesentium at ratione blanditiis dolore ipsa! Iste vitae dolorem laborum! Nam, ratione?</p>
+
+        </div>
 
     </div>
-
-    <div class="colorDivDos">
-
-        <h1>C Programming</h1>
-        <p class="margenPUno">HTML stands for HyperText Markup Language. It is used to design web pages using a markup language, HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. A markup language is used to define the text document within lag which defines the structure of web pages. HTML is a markup language that is used by the browser to manipulate text, images, and other content to display it in the required format.</p>
-
-    </div>
-
+    
 </body>
-
 </html>

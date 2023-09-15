@@ -6,26 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo CSS</title>
     <style>
-
-        p {
-            color: white;
-            font-size: 16px;
-            font-family: Verdana;
-            border: inset 2px black;
+        nav {
+            background-color: black;
+            height: 70px;
         }
 
+        a {
+            color: white;
+        }
+
+        .colorDivUno {
+            background-color: #008000;
+            height: 300px;
+        }
+
+        .colorDivDos {
+            background-color: #0000FF;
+            height: 300px;
+        }
+
+        h1 {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        .margenPUno{
+            margin-top: 0;
+        }
     </style>
 </head>
 
-<body style="background-color: #2596be">
+<body>
 
-    <h1 style="background-color: black; color: white">Ejemplo CSS</h1>
+    <nav>
 
-    <p>Que tienes para este viernes?</p>
+        <img src="" alt="Logo">
+        <a href="">Web Technology</a>
+        <a href="">C Programming</a>
+        <a href="">Jaime Gay</a>
+        <input type="text">
+        <button>Search</button>
 
-    <p>Un super Quiz</p>
+    </nav>
 
-    <p>Deseo que llegue el viernes</p>
+    <div class="colorDivUno">
+
+        <h1>Web Technology</h1>
+        <p class="margenPUno">HTML stands for HyperText Markup Language. It is used to design web pages using a markup language, HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. A markup language is used to define the text document within lag which defines the structure of web pages. HTML is a markup language that is used by the browser to manipulate text, images, and other content to display it in the required format.</p>
+
+    </div>
+
+    <div class="colorDivDos">
+
+        <h1>C Programming</h1>
+        <p class="margenPUno">HTML stands for HyperText Markup Language. It is used to design web pages using a markup language, HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. A markup language is used to define the text document within lag which defines the structure of web pages. HTML is a markup language that is used by the browser to manipulate text, images, and other content to display it in the required format.</p>
+
+    </div>
 
 </body>
 

@@ -4,32 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejemplo HTML Formulario</title>
 </head>
 
 <body>
-    <h1>Rellena tu CV</h1>
 
-    <form action=""></form>
-    Nombre: <br>
-    <input type="text"><br>
-    apellidos: <br>
-    <input type="text"><br>
-    Contraseña: <br>
-    <input type="password"><br>
-    DNI: <br>
-    <input type="number"><br>
-    Sexo: <br>
-    <input type="radio" name="Sexo">Hombre <br>
-    <input type="radio" name="Sexo" checked>Mujer <br>
-    Incluir Foto: <input type="text">
-    <input type="file">
-    <br>
+    <h1>Ejemplo HTML Formulario</h1>
 
-    <input type="checkbox" checked>Suscribirme al boletin de novedades <br>
+    <form action="">
+        <Fieldset>
+            <Legend>Datos Paciente</Legend>
+            Cedula
+            <input type="number" pattern="[0,9]{6,12}" autofocus>
 
-    <input type="submit" value="Enviar Datos">
-    <input type="reset" value="Limpiar formulario">
+            Nombre Paciente
+            <input type="text" pattern="(Sr|Sra) [A-Z]{1}[a-z ]*" size="40" placeholder="Sr|Sra Nombre">
+
+            Fecha De Nacimiento
+            <input type="date" pattern="[0-9]{4}/[0-9]{2}/[0-9]{2}">
+
+            Numero Celular
+            <input type="text" pattern="\+\d{2} \d{3} \d{3} \d{3}">
+
+            <input type="submit" value="Enviar Servidor">
+        </Fieldset>
+
+        <textarea cols="30" rows="3"></textarea>
+
+    </form>
+
 </body>
 
 </html>
