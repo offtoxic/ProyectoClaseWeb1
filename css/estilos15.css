@@ -1,0 +1,48 @@
+body {
+    background: aquamarine;
+}
+
+#flexContenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gridContenedor {
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    gap: 20px;
+    grid-template-rows: 100px 400px;
+}
+
+div#flexContenedor > div {
+    width: 400px;
+    border: 1px solid red;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+div#gridContenedor > div {
+    border: 1px solid blue;
+}
+
+#gridArea {
+    display: grid;
+    grid-template-areas: 'encabezado encabezado encabezado aside'
+    'encabezado intermedio intermedio aside'
+    'encabezado intermedio intermedio aside';
+}
+
+#divUno {
+    grid-area: encabezado;
+    background-color: aqua;
+}
+
+#divDos {
+    grid-area: intermedio;
+    background-color: blueviolet;
+}
+
+#divTres{
+    grid-area: aside;
+    background-color: brown;
+}
