@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo JS</title>
+</head>
+
+<body>
+
+    <h1 id="titulo"> Ejemplo </h1>
+
+    <script>
+
+        var h1 = document.getElementById("titulo")
+        h1.innerHTML = "Ejemplo JS"
+
+        var p = document.createElement("p")
+        var textop = document.createTextNode("El mundo cambia con un solo click")
+        p.appendChild(textop)
+
+        document.body.appendChild(p)
+
+        var h2 = document.createElement("h2")
+        var textoh2 = document.createTextNode("Back End 1")
+        h2.appendChild(textoh2)
+
+        document.body.appendChild(h2)
+
+    </script>
+
+</body>
+
+</html>
